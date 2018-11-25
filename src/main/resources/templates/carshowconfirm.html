@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<p th:line="text">
+    The cars name is [[$(carshow.name)}}.<br />
+    It is a [[$(carshow.type)}}.<br />
+    Here are the details on the car
+    [[$(carshow.description)}}.
+</p>
+</body>
+</html>
